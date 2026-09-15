@@ -1,0 +1,29 @@
+{
+  "motion": {
+    "enter": {
+      "fast": { "value": { "duration": "{motion.raw.duration.fast}", "easing": "{motion.raw.easing.easeOut}" }, "type": "motion" },
+      "normal": { "value": { "duration": "{motion.raw.duration.normal}", "easing": "{motion.raw.easing.easeOut}" }, "type": "motion" },
+      "slow": { "value": { "duration": "{motion.raw.duration.slow}", "easing": "{motion.raw.easing.springGentle}" }, "type": "motion" }
+    },
+    "exit": {
+      "fast": { "value": { "duration": "{motion.raw.duration.fast}", "easing": "{motion.raw.easing.easeIn}" }, "type": "motion" },
+      "normal": { "value": { "duration": "{motion.raw.duration.normal}", "easing": "{motion.raw.easing.easeIn}" }, "type": "motion" },
+      "slow": { "value": { "duration": "{motion.raw.duration.slow}", "easing": "{motion.raw.easing.easeIn}" }, "type": "motion" }
+    },
+    "transition": {
+      "fast": { "value": { "duration": "{motion.raw.duration.fastest}", "easing": "{motion.raw.easing.easeInOut}" }, "type": "motion" },
+      "normal": { "value": { "duration": "{motion.raw.duration.fast}", "easing": "{motion.raw.easing.easeInOut}" }, "type": "motion" },
+      "slow": { "value": { "duration": "{motion.raw.duration.normal}", "easing": "{motion.raw.easing.easeInOut}" }, "type": "motion" }
+    },
+    "hover": {
+      "fast": { "value": { "duration": "{motion.raw.duration.fastest}", "easing": "{motion.raw.easing.springSnappy}" }, "type": "motion" },
+      "normal": { "value": { "duration": "{motion.raw.duration.fast}", "easing": "{motion.raw.easing.springSnappy}" }, "type": "motion" }
+    },
+    "focus": {
+      "fast": { "value": { "duration": "{motion.raw.duration.fastest}", "easing": "{motion.raw.easing.easeOut}" }, "type": "motion" }
+    },
+    "drag": {
+      "normal": { "value": { "duration": "{motion.raw.duration.normal}", "easing": "{motion.raw.easing.springGentle}" }, "type": "motion" }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "color": {
+    "primary": {
+      "brand": { "value": "{color.raw.blue.600}", "type": "color" },
+      "brandHover": { "value": "{color.raw.blue.700}", "type": "color" },
+      "brandActive": { "value": "{color.raw.blue.800}", "type": "color" },
+      "brandSubtle": { "value": "{color.raw.blue.50}", "type": "color" },
+      "brandSubtleHover": { "value": "{color.raw.blue.100}", "type": "color" },
+      "onBrand": { "value": "#FFFFFF", "type": "color" },
+      "onBrandSubtle": { "value": "{color.raw.blue.700}", "type": "color" }
+    },
+    "surface": {
+      "brand": { "value": "{color.raw.blue.50}", "type": "color" },
+      "brandHover": { "value": "{color.raw.blue.100}", "type": "color" }
+    },
+    "background": {
+      "brand": { "value": "{color.raw.blue.50}", "type": "color" },
+      "brandHover": { "value": "{color.raw.blue.100}", "type": "color" }
+    },
+    "text": {
+      "brand": { "value": "{color.raw.blue.600}", "type": "color" },
+      "brandHover": { "value": "{color.raw.blue.700}", "type": "color" },
+      "link": { "value": "{color.raw.blue.600}", "type": "color" },
+      "linkHover": { "value": "{color.raw.blue.700}", "type": "color" }
+    },
+    "icon": {
+      "brand": { "value": "{color.raw.blue.600}", "type": "color" }
+    },
+    "focus": {
+      "ring": { "value": "{color.raw.blue.500}", "type": "color" }
+    },
+    "selection": {
+      "bg": { "value": "{color.raw.blue.200}", "type": "color" },
+      "text": { "value": "{color.raw.blue.900}", "type": "color" }
+    }
+  }
+}

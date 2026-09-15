@@ -1,0 +1,39 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".turbo/**"],
+      "cache": true
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "outputs": [],
+      "cache": true
+    },
+    "typecheck": {
+      "outputs": [],
+      "cache": true
+    },
+    "test": {
+      "outputs": ["coverage/**"],
+      "cache": true
+    },
+    "storybook": {
+      "cache": false,
+      "persistent": true
+    },
+    "storybook:build": {
+      "outputs": ["storybook-static/**"],
+      "cache": true
+    },
+    "clean": {
+      "cache": false
+    }
+  },
+  "globalEnv": ["NODE_ENV"],
+  "globalDependencies": [".github/**"]
+}

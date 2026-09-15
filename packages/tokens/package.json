@@ -1,0 +1,35 @@
+{
+  "name": "@essence/tokens",
+  "version": "0.0.0",
+  "description": "Design tokens for Essence Design System",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./css": "./dist/tokens.css",
+    "./json": "./dist/tokens.json"
+  },
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "dev": "tsx scripts/build.ts --watch",
+    "lint": "biome check .",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.6.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "theo": "^8.1.5",
+    "colorjs.io": "^0.5.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

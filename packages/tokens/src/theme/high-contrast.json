@@ -1,0 +1,60 @@
+{
+  "color": {
+    "surface": {
+      "primary": { "value": "#FFFFFF", "type": "color" },
+      "secondary": { "value": "#F0F0F0", "type": "color" },
+      "tertiary": { "value": "#E0E0E0", "type": "color" },
+      "elevated": { "value": "#FFFFFF", "type": "color" },
+      "elevatedHover": { "value": "#F0F0F0", "type": "color" },
+      "overlay": { "value": "rgba(0, 0, 0, 0.8)", "type": "color" },
+      "inverse": { "value": "#000000", "type": "color" },
+      "inverseHover": { "value": "#1A1A1A", "type": "color" }
+    },
+    "background": {
+      "primary": { "value": "#FFFFFF", "type": "color" },
+      "secondary": { "value": "#F0F0F0", "type": "color" },
+      "tertiary": { "value": "#E0E0E0", "type": "color" },
+      "inverse": { "value": "#000000", "type": "color" }
+    },
+    "border": {
+      "primary": { "value": "#000000", "type": "color" },
+      "secondary": { "value": "#333333", "type": "color" },
+      "tertiary": { "value": "#666666", "type": "color" },
+      "focus": { "value": "#0000FF", "type": "color" },
+      "error": { "value": "#CC0000", "type": "color" },
+      "success": { "value": "#006600", "type": "color" },
+      "warning": { "value": "#CC6600", "type": "color" }
+    },
+    "text": {
+      "primary": { "value": "#000000", "type": "color" },
+      "secondary": { "value": "#1A1A1A", "type": "color" },
+      "tertiary": { "value": "#333333", "type": "color" },
+      "inverse": { "value": "#FFFFFF", "type": "color" },
+      "inverseSecondary": { "value": "#FFFFFF", "type": "color" },
+      "disabled": { "value": "#666666", "type": "color" },
+      "error": { "value": "#CC0000", "type": "color" },
+      "success": { "value": "#006600", "type": "color" },
+      "warning": { "value": "#CC6600", "type": "color" },
+      "link": { "value": "#0000FF", "type": "color" },
+      "linkHover": { "value": "#0000CC", "type": "color" }
+    },
+    "icon": {
+      "primary": { "value": "#000000", "type": "color" },
+      "secondary": { "value": "#333333", "type": "color" },
+      "tertiary": { "value": "#666666", "type": "color" },
+      "inverse": { "value": "#FFFFFF", "type": "color" }
+    },
+    "focus": {
+      "ring": { "value": "#0000FF", "type": "color" },
+      "ringOffset": { "value": "#FFFFFF", "type": "color" }
+    },
+    "selection": {
+      "bg": { "value": "#0000FF", "type": "color" },
+      "text": { "value": "#FFFFFF", "type": "color" }
+    },
+    "overlay": {
+      "bg": { "value": "rgba(0, 0, 0, 0.8)", "type": "color" },
+      "backdrop": { "value": "rgba(0, 0, 0, 0.6)", "type": "color" }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "elevation": {
+    "raw": {
+      "0": { "value": "none", "type": "boxShadow" },
+      "1": { "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)", "type": "boxShadow" },
+      "2": { "value": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)", "type": "boxShadow" },
+      "3": { "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)", "type": "boxShadow" },
+      "4": { "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)", "type": "boxShadow" },
+      "5": { "value": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)", "type": "boxShadow" },
+      "6": { "value": "0 25px 50px -12px rgb(0 0 0 / 0.25)", "type": "boxShadow" },
+      "inner": { "value": "inset 0 2px 4px 0 rgb(0 0 0 / 0.05)", "type": "boxShadow" },
+      "focus": { "value": "0 0 0 3px rgb(59 130 246 / 0.4)", "type": "boxShadow" },
+      "focusError": { "value": "0 0 0 3px rgb(239 68 68 / 0.4)", "type": "boxShadow" },
+      "focusSuccess": { "value": "0 0 0 3px rgb(34 197 94 / 0.4)", "type": "boxShadow" }
+    }
+  }
+}

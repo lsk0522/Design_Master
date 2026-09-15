@@ -1,0 +1,15 @@
+{
+  "elevation": {
+    "level0": { "value": "{elevation.raw.0}", "type": "boxShadow" },
+    "level1": { "value": "{elevation.raw.1}", "type": "boxShadow" },
+    "level2": { "value": "{elevation.raw.2}", "type": "boxShadow" },
+    "level3": { "value": "{elevation.raw.3}", "type": "boxShadow" },
+    "level4": { "value": "{elevation.raw.4}", "type": "boxShadow" },
+    "level5": { "value": "{elevation.raw.5}", "type": "boxShadow" },
+    "level6": { "value": "{elevation.raw.6}", "type": "boxShadow" },
+    "inner": { "value": "{elevation.raw.inner}", "type": "boxShadow" },
+    "focus": { "value": "{elevation.raw.focus}", "type": "boxShadow" },
+    "focusError": { "value": "{elevation.raw.focusError}", "type": "boxShadow" },
+    "focusSuccess": { "value": "{elevation.raw.focusSuccess}", "type": "boxShadow" }
+  }
+}

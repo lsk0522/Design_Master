@@ -1,0 +1,25 @@
+{
+  "border": {
+    "input": {
+      "default": { "value": { "width": "{border.raw.width.1}", "style": "{border.raw.style.solid}", "color": "{color.border.primary}", "radius": "{border.raw.radius.md}" }, "type": "border" },
+      "hover": { "value": { "width": "{border.raw.width.1}", "style": "{border.raw.style.solid}", "color": "{color.border.secondary}", "radius": "{border.raw.radius.md}" }, "type": "border" },
+      "focus": { "value": { "width": "{border.raw.width.2}", "style": "{border.raw.style.solid}", "color": "{color.border.focus}", "radius": "{border.raw.radius.md}" }, "type": "border" },
+      "error": { "value": { "width": "{border.raw.width.1}", "style": "{border.raw.style.solid}", "color": "{color.border.error}", "radius": "{border.raw.radius.md}" }, "type": "border" },
+      "disabled": { "value": { "width": "{border.raw.width.1}", "style": "{border.raw.style.solid}", "color": "{color.border.tertiary}", "radius": "{border.raw.radius.md}" }, "type": "border" }
+    },
+    "card": {
+      "default": { "value": { "width": "{border.raw.width.1}", "style": "{border.raw.style.solid}", "color": "{color.border.primary}", "radius": "{border.raw.radius.lg}" }, "type": "border" },
+      "hover": { "value": { "width": "{border.raw.width.1}", "style": "{border.raw.style.solid}", "color": "{color.border.secondary}", "radius": "{border.raw.radius.lg}" }, "type": "border" },
+      "elevated": { "value": { "width": "{border.raw.width.0}", "style": "{border.raw.style.none}", "color": "transparent", "radius": "{border.raw.radius.lg}" }, "type": "border" }
+    },
+    "button": {
+      "default": { "value": { "width": "{border.raw.width.0}", "style": "{border.raw.style.none}", "color": "transparent", "radius": "{border.raw.radius.md}" }, "type": "border" },
+      "outline": { "value": { "width": "{border.raw.width.1}", "style": "{border.raw.style.solid}", "color": "{color.border.primary}", "radius": "{border.raw.radius.md}" }, "type": "border" },
+      "ghost": { "value": { "width": "{border.raw.width.0}", "style": "{border.raw.style.none}", "color": "transparent", "radius": "{border.raw.radius.md}" }, "type": "border" }
+    },
+    "divider": {
+      "default": { "value": { "width": "{border.raw.width.1}", "style": "{border.raw.style.solid}", "color": "{color.border.primary}", "radius": "{border.raw.radius.none}" }, "type": "border" },
+      "subtle": { "value": { "width": "{border.raw.width.1}", "style": "{border.raw.style.solid}", "color": "{color.border.tertiary}", "radius": "{border.raw.radius.none}" }, "type": "border" }
+    }
+  }
+}
